@@ -19,7 +19,7 @@ export const App = () => {
     })
     setList(newList)
   }
-
+  //Altera o estado da tarefa
   const handleTaskChange = (id: number, done: boolean) => {
     let newList = [...list]
     for(let i in newList){
